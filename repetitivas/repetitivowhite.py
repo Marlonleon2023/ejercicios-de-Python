@@ -16,6 +16,7 @@ el  valor del descuento y el valor a pagar."""
 
 # compra desea segir en la aplicacion
 
+import random
 
 while True:
     compra = int(input("Ingresa el valor de la compra (o ingresa 0 para salir): "))
@@ -24,7 +25,7 @@ while True:
         print("¡Hasta luego!")
         break
 
-    balota = input("Ingresa el color de la balota: ")
+    balota = random.choice(["roja", "verde", "azul", "amarillo", "negra"])
 
     if compra >= 50000 and balota == "roja":
         descuento = 0.10
@@ -47,6 +48,7 @@ while True:
 
     print("Compra:", compra, "Descuento:", descuento,
         "Valor total es:", total, "Balota:", balota)
+
 
 
 
