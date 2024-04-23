@@ -1,4 +1,4 @@
-"""En un supermercado, se ha implementado la 
+"""En un supermercado, se ha implementado la     ..
 estrategia de descuento, según el valor de la compra y la balota que el cliente 
 saque de una bolsa secreta. Las condiciones se listan a continuación:
 - si el valor de la compra es superior igual a 50.000 pesos y saca:
