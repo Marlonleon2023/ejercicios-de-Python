@@ -17,7 +17,7 @@ print("Bienvenidos ala ciudad de ibague")   # mensaje de bienvenida
 while True:   # se crea un blucle true para ingresar los carros deseados  sin limitaciones de cantidad 
     
     ingresIbague=input("ingresa placa del carro ingresa (s) si deseas salir: ") # solicida ingresar numero de placa a ibague 
-   # se establecen la condicion para salir y se pone un mensaje por haber ingresado a ibague
+    # se establecen la condicion para salir y se pone un mensaje por haber ingresado a ibague
     if ingresIbague.lower()=='s':     
         print("gracias por ingresar a Ibague ")
         break

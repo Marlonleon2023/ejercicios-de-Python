@@ -31,11 +31,11 @@ while True:  # bucle infinito permite el ingreso de las personas
     sumaEdades+=edadesPersonas  # edadespersonas se pasa sumaedades 
     cantidadAlumnos+=1          # cada ves que ingrese una persona se suma a cantidad de personas 
   except ValueError:       #  se  arroja un mensaje   que hay un error 
-      print("debes ingresar numero entero o (0)para salir")  
+    print("debes ingresar numero entero o (0)para salir")  
     
-      
-  # se crean unas condiciones para calcular el promedio de mujer , hommbre, personas 
-   
+
+    # se crean unas condiciones para calcular el promedio de mujer , hommbre, personas 
+
 if ingresoHombre>0:
     promedioHombre=sumaHombres/ingresoHombre 
     print("el promedio de los hombres es : ",promedioHombre) 

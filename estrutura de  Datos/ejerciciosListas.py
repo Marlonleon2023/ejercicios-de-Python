@@ -81,7 +81,7 @@ print(aprendices[0:5])
 print(aprendices[5:11])
 
 """Muestre del elemento 10 al elemento 20"""
-
+print(aprendices[9:20])
 
 
 
