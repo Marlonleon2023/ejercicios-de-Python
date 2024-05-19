@@ -1,4 +1,4 @@
-
+#Contadores
 contador1 = 0
 contador2 = 0
 contador3 = 0
