@@ -6,7 +6,7 @@ Al finalizar calcule e imprima:
 • La cantidad de estudiantes que obtuvieron una calificación de 70 o más pero menor que 80. 
 • La cantidad de estudiantes que obtuvieron una calificación de 80 o más.
 La calificación obtenida en el examen de algoritmia debe ser entre 1 y 100."""
-
+#selec
 # 10 estudiantes
 # calificacion obtenida
 
