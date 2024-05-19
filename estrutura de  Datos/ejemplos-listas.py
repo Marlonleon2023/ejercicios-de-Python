@@ -1,5 +1,5 @@
 
-"""ejemplos  guiados por la instructora"""
+"""ejemplos  guiados por la instructora ..."""
 
 compras = ["Agua", "Huevos", "Aceite", "Sal", "Limón"]   # se crea la lista 
 print (compras[1:4])       # se imprime  la lista  y se establecen los indices que quire mostrar
