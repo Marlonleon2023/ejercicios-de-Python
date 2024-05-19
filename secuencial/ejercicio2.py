@@ -1,6 +1,6 @@
 
 #Declaracion de Varibles 
-
+#secuencial
 # Cree un algortimo que defina 2 variables 
 #valor y descuento
 
