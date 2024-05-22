@@ -1,4 +1,4 @@
-"""La oficina de tránsito de Ibagué desea saber, de los n autos que entran a la ciudad
+"""La oficina de tránsito de Ibagué desea saber, de  n autos que entran a la ciudad
 de Ibagué, cuantos entran con calcomanía de cada color. Conociendo el ultimo
 dígito de la placa de cada carro, se puede determinar el color de la calcomanía
 utilizando la siguiente relación"""
@@ -23,7 +23,7 @@ while True:   # se crea un blucle true para ingresar los carros deseados  sin li
         break
     
     try:        # desee  poner try por si encriben una letra , de la oportunidad de ingresar un numero y no se borre el progreso
-        ultimoDigito=int(ingresIbague)%10   #  aca ingreso dia pone con el resto a 10 para obtener el ultimo digito de la placa y se pasa el valor a ultimo digito
+        ultimoDigito=int(ingresIbague)%10   #  aca ingreso  pone con el resto a 10 para obtener el ultimo digito de la placa y se pasa el valor a ultimo digito
         print(ultimoDigito)  # se imprime el ultimo digito 
         
         #condiciones de los ultimos dijitos de las placas  y se guardan en un contador dependiento del numero
@@ -49,7 +49,7 @@ while True:   # se crea un blucle true para ingresar los carros deseados  sin li
         print("error debes ingresar un numero entero o 's' para salir")
     
 #se calcula el total de los carros ingresados 
-totalcarrosIngresados=azul+verde+rojo+amarillo,rosado
+totalcarrosIngresados=azul+verde+rojo+amarillo+rosado
 print("total de carros ingresados a ibague",totalcarrosIngresados)
 # se defines el numero de carros que ingresaron por el color de su calcomania
 print("ingresaron",verde,"carros con calcomania de color verde")

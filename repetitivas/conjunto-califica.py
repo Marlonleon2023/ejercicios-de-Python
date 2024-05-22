@@ -7,14 +7,14 @@ de todo el grupo. """
 
 sumaCalificaciones = 0
 cantidadCalificaciones = 0
-calificacionMasAlta = float("-inf")   #a calificacion mas alta comience a aumentear desde el menor numero siempre sia la mas alta
+calificacionMasAlta = float("-inf")   #a calificacion mas alta comience a aumentear desde el menor numero siempre sea la mas alta
 calificacionMasBaja = float("inf")   #la calificacion mas baja siempre va hacer menor numero que la mayor
 
 # Solicitar las calificaciones al usuario y calcular la suma, así como la calificación más alta y más baja
 for x in range(1,20):  # Iterar sobre 20 alumnos
     calificacion = int(input("Ingresa tu calificación: ")) # se solicita ingresar las calificaciones 
     sumaCalificaciones += calificacion  # calificacion pasa a acumular en suma clalificaciones
-    cantidadCalificaciones += 1        # lo que hace es cantida calificaciones vallan aumentado pase al contador
+    cantidadCalificaciones += 1        # lo que hace es que la cantida de calificaciones vallan aumentado pase al contador
     if calificacion > calificacionMasAlta:   # aca  se ponen la condiciones de las nostas 
         calificacionMasAlta = calificacion
     if calificacion < calificacionMasBaja:

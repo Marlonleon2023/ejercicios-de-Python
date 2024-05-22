@@ -26,8 +26,8 @@ for i in range(50):    # Se establece el rango solicitado por el enunciado
     edad = int(input("Ingrese la edad: "))    # pedimos ingresar edad 
     peso = int(input("Ingrese el peso: "))    # solicita ingresar peso 
 
-    #condiciones 
-    # se verifica si estan dentro del rango de edad 
+#condiciones 
+    # se verifica si estan dentro del rango de edad y se guarda el peso 
     if 0 <= edad <= 12:
         pesoNiños += peso
         cantidadNiños += 1
@@ -42,7 +42,7 @@ for i in range(50):    # Se establece el rango solicitado por el enunciado
         cantidadAncianos += 1
 
 
-#  aca se aclara si cantidad de niños es 0 el promedio  va hacer 0
+#  aca se aclara si cantidad de niños es 0 el promedio  va hacer 0 y asi sucesivamente
 promedioNinos = pesoNiños / cantidadNiños if cantidadNiños > 0 else 0    
 promedioJovenes = pesoJovenes / cantidadJovenes if cantidadJovenes > 0 else 0
 promedioAdultos = pesoAdultos / cantidadAdultos if cantidadAdultos > 0 else 0

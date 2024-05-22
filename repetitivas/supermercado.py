@@ -16,9 +16,8 @@ el  valor del descuento y el valor a pagar."""
 
 # compra desea segir en la aplicacion
 
-import random
+import random 
 
-import random
 
 while True:
     compra = int(input("Ingresa el valor de la compra (ingresar (0) para salir): "))
@@ -26,13 +25,11 @@ while True:
         print("¡Hasta luego!")
         break
 
-<<<<<<< HEAD:repetitivas/ejercicio2.py
     coloresBalotas = ["roja", "verde", "azul", "amarillo", "negra"]
 
     balota = random.choice(coloresBalotas)
-=======
+
     balota = random.choice(["roja", "verde", "azul", "amarillo", "negra"])
->>>>>>> e886b0c56bdf273fe67cf3d94c449f79b08b065d:repetitivas/repetitivowhite.py
 
     if compra >= 50000 and balota == "roja":
         descuento = 0.10
@@ -53,14 +50,13 @@ while True:
         print("No participas")
         continue
 
-<<<<<<< HEAD:repetitivas/ejercicio2.py
+
     print("Compra:", compra, "Balota:", balota,
-          "Descuento:", descuento,"Valor total es:", total)
-=======
+        "Descuento:", descuento,"Valor total es:", total)
+    
     print("Compra:", compra, "Descuento:", descuento,
         "Valor total es:", total, "Balota:", balota)
 
 
 
 
->>>>>>> e886b0c56bdf273fe67cf3d94c449f79b08b065d:repetitivas/repetitivowhite.py
