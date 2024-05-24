@@ -20,6 +20,8 @@ while True:
         print("3. Eliminar elemento")
         print("4. Deseo Salir")
         opcion=input("Seleciona una opcion: ")
+        if not opcion.isdigit():
+            print("ingresa un valor valido un numero entero")
         return opcion
 
     opcion=mostrarMenu()
@@ -32,11 +34,20 @@ while True:
     if opcion==str(agendas.EDITAR.value):
         editar=input("que tarea quieres editar?: ")
         nuevoValor=input("Ingresa el nuevo valor: ")
-
+        
         if editar in agenda:
             indice=agenda.index(editar)
             agenda[indice]=nuevoValor
             print(agenda)
+        else:
+            print(f"No se ha encontrado {editar} no se puede editar")
+            
+    if opcion==str(agendas.ELIMINAR.value):
+        eliminar=input("Que tarea deseas eliminar: ")
+        if eliminar in agenda:
+            agenda.remove(eliminar)
+            print(agenda)
+        
     if opcion==str(agendas.SALIR.value):
         print("gracias por ingresar")
         break
