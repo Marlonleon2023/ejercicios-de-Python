@@ -31,7 +31,7 @@ while True:
         agregar=input("que tarea quieres agregar : ")
         agenda.append(agregar)
         print(agenda)
-    if opcion==str(agendas.EDITAR.value):
+    elif opcion==str(agendas.EDITAR.value):
         editar=input("que tarea quieres editar?: ")
         nuevoValor=input("Ingresa el nuevo valor: ")
         
@@ -42,13 +42,13 @@ while True:
         else:
             print(f"No se ha encontrado {editar} no se puede editar")
             
-    if opcion==str(agendas.ELIMINAR.value):
+    elif opcion==str(agendas.ELIMINAR.value):
         eliminar=input("Que tarea deseas eliminar: ")
         if eliminar in agenda:
             agenda.remove(eliminar)
             print(agenda)
         
-    if opcion==str(agendas.SALIR.value):
+    elif opcion==str(agendas.SALIR.value):
         print("gracias por ingresar")
         break
 print(agenda)
